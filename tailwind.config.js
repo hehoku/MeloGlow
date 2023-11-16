@@ -1,7 +1,5 @@
 export default {
   theme: {
-    extend: {
-      //
-    },
+    extend: {},
   },
 };
