@@ -6,7 +6,7 @@ window.onload = () => {
   let audioContextStarted = false;
   document.getElementById("play").addEventListener("click", function () {
     if (!audioContextStarted) {
-      yourAudioContext.resume();
+      audioContextStarted.resume();
       audioContextStarted = true;
     }
   });
